@@ -1,0 +1,27 @@
+.present{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2% 35%;
+    text-decoration: none;
+}
+
+.presentation-container iframe{
+    margin-top: 8rem;
+}
+@media screen and (max-width:1024px) {
+    .present{
+        display: flex;
+        flex-direction: column;
+    }
+    .present button{
+        margin-bottom: 20px;
+        width: max-content;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .presentation-container iframe{
+        margin-top: 1rem;
+    }
+}

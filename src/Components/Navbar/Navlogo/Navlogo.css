@@ -1,0 +1,39 @@
+.navlogo_cti img{
+
+}
+
+
+.navlogo{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    background-color: white;
+    /* height: 1rem; */
+    /* position: fixed; */
+}
+
+.scroll-content {
+    margin-top: 25px;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+      transform: translateX(-100%); /* Move text to the left */
+    }
+  }
+  
+  .scroll-content p {
+    animation: scroll 10s linear infinite; /* Adjust the duration as needed */
+  }
+  
+@media screen and (max-width:1040px) {
+    .navlogo{
+        visibility: hidden;
+        height: 0;
+    }
+}

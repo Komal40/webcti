@@ -1,0 +1,37 @@
+.details__parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.details__main {
+    text-align: center;
+}
+
+.details__parent img{
+    height: 50vh;
+    width: 50vw;
+}
+
+.details__heading,
+.details__para{
+    color:black;
+    margin:3rem 0;
+}
+
+@media screen and (max-width:900px) {    
+.details__parent img{
+    height: auto;
+    width: 80vw;
+}
+.details__heading,
+.details__para{
+    color:black;
+    margin:3rem;
+}
+
+
+}
+
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="31px" viewBox="0 0 32 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/test</title>
+    <desc>Created with Sketch.</desc>
+    <g id="services" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="design_sprints" transform="translate(-744.000000, -1686.000000)">
+            <g id="2" transform="translate(250.000000, 1069.000000)">
+                <g id="5" transform="translate(480.000000, 603.000000)">
+                    <g id="icons/test" transform="translate(14.000000, 14.500000)">
+                        <g>
+                            <path d="M4.64001679,9.44001679 C4.21404703,9.45363989 3.80392403,9.27787289 3.52001679,8.96001679 L0.320016789,5.76001679 C-0.157727573,5.12302431 -0.0943811907,4.23167307 0.468645939,3.66864594 C1.03167307,3.10561881 1.92302431,3.04227243 2.56001679,3.52001679 L4.64001679,5.60001679 L9.92001679,0.320016789 C10.5570093,-0.157727573 11.4483605,-0.0943811907 12.0113876,0.468645939 C12.5744148,1.03167307 12.6377612,1.92302431 12.1600168,2.56001679 L5.76001679,8.96001679 C5.47610954,9.27787289 5.06598655,9.45363989 4.64001679,9.44001679 Z" id="Path" fill="#B1A0BD"></path>
+                            <rect id="Rectangle" fill="#3B1159" x="14.2400168" y="3.04001679" width="17.6" height="6.4" rx="1.6"></rect>
+                            <rect id="Rectangle" fill="#3B1159" x="14.2400168" y="13.4400168" width="17.6" height="6.4" rx="1.6"></rect>
+                            <rect id="Rectangle" fill="#3B1159" x="14.2400168" y="23.8400168" width="17.6" height="6.4" rx="1.6"></rect>
+                            <rect id="Rectangle" fill="#B1A0BD" x="3.04001679" y="13.440754" width="6.4" height="6.4" rx="1.6"></rect>
+                            <rect id="Rectangle" fill="#B1A0BD" x="3.04001679" y="23.840754" width="6.4" height="6.4" rx="1.6"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

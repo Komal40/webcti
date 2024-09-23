@@ -1,0 +1,203 @@
+#automotive{
+    background-image: url('../Images/auto_bg.png');
+}
+
+
+.auto__head{
+    text-align: center;
+    color: white;
+}
+.auto__heading{
+    padding-top: 4rem;
+    font-size: 1.5rem;
+}
+
+.auto__para{
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.auto__para p{
+    margin: 3rem 8rem;
+}
+.auto__btn {
+    display: block;
+    /* flex-direction: column; */
+   margin: auto;
+   /* gap:1rem; */
+   justify-content: center;
+   text-align: center;
+   margin-top: 2rem;
+   /* background-color: green; */
+   color: white;
+}
+
+
+.auto__btn button{
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+
+}
+
+.auto__explore{
+    background-color: var(--color-primary);
+    color:white;
+    border-radius: 10px;
+    border:none;
+    font-weight: 500px;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.auto__explore:hover{
+    /* background-color: white; */
+    color:black;
+}
+
+.auto__consult{
+    color:white;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.automotive__images{
+
+}
+
+
+.auto__images{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+ justify-content: center;
+    align-items: center;  
+}  
+
+.automotive__itemwrapper{
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    margin:1rem;
+    height: 200px;
+}
+
+
+.automotive__itemwrapper:hover  .iotSol_para{
+    visibility: visible;
+   opacity: 1;
+   background-color: white;
+   padding-left: 8px;
+   padding-top: 8px;
+   z-index: 1;
+   height: fit-content;
+   transition: 0.4s ease;
+   /* border: 2px solid var(--color-blue); */
+  }
+ 
+  .auto_main2 {
+    min-height: 200px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bottom .auto_back{
+    background-color: black;
+    filter: opacity(55%);
+    /* width: 100%; */
+    color: rgb(255, 255, 255);
+    padding: 6px 4px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+@media screen and (max-width:1024px) {
+      
+  .auto_main2 {
+    min-height: 200px;
+    width: 100%;
+}
+.auto__images{
+    width: 90%;
+    /* overflow: scroll; */
+    margin: 0;
+}
+.automotive__itemwrapper, .auto_main2{
+    width: 100%;
+    margin: 0;
+}
+
+}
+
+@media screen and (max-width:990px) {
+    #automotive{
+        background-color: var(--color-blue);
+        height: min-content;
+    }
+    .auto__para p{
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .auto__images{
+        display: block;
+    }
+    .automotive__itemwrapper, .auto_main2{
+        width: 100%;
+        /* margin: 1rem; */
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width:650px ) {
+    #automotive{
+        background-color: var(--color-blue);
+        /* height: min-content; */
+        
+    }
+    .auto__para p{
+        margin: 20px;
+        font-weight: 600;
+    }
+    .auto__images{
+        /* display: block; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+        align-items: center;
+       height: auto;
+        width: 100%; 
+    }
+
+    .automotive__itemwrapper{
+        /* height: 200px; */
+        height: auto;
+    }
+
+    .auto_main2{
+        height: auto;
+    }
+    .auto_main2 .iotSol_para{
+        display: flex;
+        visibility: hidden;
+
+    }
+ 
+
+
+
+    .automotive__itemwrapper{
+        text-align: center;
+        margin: auto;
+    }
+    .automotive__itemwrapper,.aut_main2{
+        display: flex;
+    flex-direction: column;
+    /* margin: 1rem; */
+    margin-bottom: 24px;
+    }
+}

@@ -1,0 +1,111 @@
+.heading_products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-blue);
+    font-weight: 700px;
+    /* background-color: rgb(224, 224, 159); */
+    /* margin: -1.5rem; */
+}
+
+/* #ele_products{
+    height: 100vh;
+} */
+
+.button_product{
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.button_products{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;    
+}
+
+/* .active {
+  background-color:rgb(22, 115, 191);
+} */
+
+.active {
+  background-color:var(--color-primary);
+}
+
+
+
+ 
+  
+  .card {
+    box-shadow: 0 0 10px 5px rgba(92, 85, 230, 0.3);
+    margin: 2rem;
+    transition: transform 0.3s;
+    position: relative; 
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    background-color: rgba(244, 235, 235, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .card .overlay p {
+    margin: 0;
+    padding: 10px;
+    color: #000; 
+    font-weight: 700;
+  }
+  
+  .card .overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+
+
+
+  
+/* @media screen and (max-width:990px) {
+
+}
+
+
+@media screen and (max-width:650px) {
+.button_products button{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+} */
+
+
+
+
+
+
+

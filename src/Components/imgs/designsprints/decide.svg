@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="30px" viewBox="0 0 32 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/decide</title>
+    <desc>Created with Sketch.</desc>
+    <g id="services" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="design_sprints" transform="translate(-264.000000, -1542.000000)">
+            <g id="2" transform="translate(250.000000, 1069.000000)">
+                <g id="3" transform="translate(0.000000, 458.000000)">
+                    <g id="icons/decide" transform="translate(14.000000, 14.000000)">
+                        <g transform="translate(0.000000, 1.000000)" id="Path">
+                            <path d="M24,12 L30.4,12 C31.2836556,12 32,12.732625 32,13.6363636 L32,28.3636364 C32,29.267375 31.2836556,30 30.4,30 L24,30 L24,12 Z" fill="#B1A0BD"></path>
+                            <path d="M21.9942559,12 C15.9142559,12 15.5942559,5.00041048 15.5942559,3.66715534 C15.5942559,1.82631413 14.1615671,0.334017473 12.3942559,0.334017473 C10.6269447,0.334017473 9.19425587,1.82631413 9.19425587,3.66715534 C9.19324459,6.56375998 9.85122001,9.41938861 11.1142559,12 L1.67425587,12 C1.15189888,11.9747269 0.650647264,12.2169252 0.331817184,12.6486489 C0.0129871035,13.0803727 -0.0831834152,13.6471361 0.0742558694,14.1665396 L4.07425587,28.8316425 C4.29145182,29.5537822 4.94849572,30.0328487 5.67425587,29.9982408 L24,29.9982408 L24,12 L21.9942559,12 Z" fill="#3B1159"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

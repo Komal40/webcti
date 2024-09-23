@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="32px" viewBox="0 0 20 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/prototype</title>
+    <desc>Created with Sketch.</desc>
+    <g id="services" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="design_sprints" transform="translate(-750.000000, -1541.000000)">
+            <g id="2" transform="translate(250.000000, 1069.000000)">
+                <g id="4" transform="translate(480.000000, 458.000000)">
+                    <g id="icons/prototype" transform="translate(20.000000, 14.000000)">
+                        <g id="Path">
+                            <path d="M17.6,0 L1.6,0 C0.749066304,0.074405931 0.074405931,0.749066304 0,1.6 L0,30.4 C0,31.2836556 0.7163444,32 1.6,32 L17.6,32 C18.4836556,32 19.2,31.2836556 19.2,30.4 L19.2,1.6 C19.1255941,0.749066304 18.4509337,0.074405931 17.6,0 Z" fill="#3B1159"></path>
+                            <path d="M9.75609898,29.6975653 C8.87244338,29.6975653 8.15609898,28.9812209 8.15609898,28.0975653 C8.15609898,27.2139097 8.87244338,26.4975653 9.75609898,26.4975653 C10.6397546,26.4975653 11.356099,27.2139097 11.356099,28.0975653 C11.356099,28.9812209 10.6397546,29.6975653 9.75609898,29.6975653 Z" fill="#B1A0BD"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

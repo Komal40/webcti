@@ -1,0 +1,59 @@
+/* .container{
+    margin:1rem;
+  
+    padding-left: 2px;
+    padding-right: 8px; 
+    width: 100%;
+} */
+
+#social-section {
+    padding: 20px 0;
+  
+    /* background-color: #c9cbce; */
+    background-color: var(--color-blue);
+    text-align: center;
+}
+
+
+.container img{
+    height: 75px;
+
+}
+
+.container
+.row
+strong, h2{
+    color:white;
+}
+
+.container h2{
+    margin:2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+}
+
+.marquee img {
+  margin-right: 20px; /* Adjust spacing between images */
+  animation: scrollAnimation 60s linear infinite; /* Set animation properties */
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+

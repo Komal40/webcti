@@ -1,0 +1,310 @@
+.certificate__img a{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 200px;
+    margin-top:7rem;
+    margin-right: 2rem;
+}
+
+
+
+/* .text_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+  } */
+
+  .text_img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    /* width: 100%;  */
+    padding: 0 20px; /* Optional: Add padding for spacing */
+  }
+  
+  
+  .certificate__text {
+    flex: 1;
+  }
+  
+  .certificate__img {
+    display: flex;
+  }
+  
+
+  .certificate__img h4{
+    text-align: center;
+  }
+
+.text_img,
+.certificate__text p{
+  text-align: center;
+    margin:0.3rem 4rem;
+}
+
+.cert_btn button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.certificate__img .certificate__left,
+.certificate__img .certificate__right,
+.certificate__img .certificate__mid {
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 3%;
+    /* box-shadow: inset 0 0 0 6px blue; */
+    margin: 0 10px; 
+    transition: transform 0.3s;
+}
+
+.certificate__img img {
+    width: 100%;
+    height: 50vh;
+    transition: 0.5s;
+    border-radius: 3.5%;
+    overflow: scroll;
+}
+
+
+/* .certificate__left img:hover,
+.certificate__right img:hover,
+.certificate__mid img:hover
+{
+  transform:scale(1.1);
+  width: auto;
+  transition: smooth;
+} */
+
+.certificate__left:hover,
+.certificate__right:hover,
+.certificate__mid:hover{
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+
+
+.scroll-cert-btn {
+  position: absolute;
+  /* top: 20%; */
+  transform: translateY(-300%);
+  background-color: var(--color-blue);
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-cert-btn.left {
+  left: 5%;
+
+}
+
+.scroll-cert-btn.right {
+  right: 5%;
+}
+
+
+
+@media screen and (max-width:990px) {
+  .certificate__img {
+    display: block;
+  }
+  .certificate__img img{
+    /* margin:2rem; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .text_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 90%; */
+  }
+
+  
+  .text_img h4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .certificate__text p{
+    margin: 3rem 0;
+    /* width: 90%; */
+  }
+  .certificate__left img,
+  .certificate__mid img,
+  .certificate__right img{
+    margin-top: -5em;
+  }
+
+  .certificate__img a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    margin-top:7rem;
+}
+
+.scroll-cert-btn {
+  display: none;
+}
+
+
+}
+
+
+.certificate {
+  padding: 2rem;
+}
+
+.iotSol__head {
+  text-align: center;
+}
+
+.heading_products {
+  margin-bottom: 1rem;
+}
+
+.certificate__text p {
+  color: black;
+}
+
+.certificate__img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.certificate__item {
+  text-align: center;
+  max-width: 300px;
+
+}
+
+.certificate__item h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.certificate__item img {
+  width: 100%;
+  border-radius: 3.5%;
+}
+
+@media screen and (max-width: 990px) {
+  .certificate__item {
+    margin-bottom: 2rem;
+  }
+  .certificate__text p {
+    width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .certificate__item {
+    margin-bottom: 2rem;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+@media screen and (max-width:650px) {
+  
+  .certificate__img {
+    display: block;
+  }
+  .certificate__img img{
+    /* margin:2rem; */
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .certificate__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* margin-left: 1em; */
+  }
+  
+  .text_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .text_img h4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+  } 
+  .text_img p{
+    display: block;
+    align-items: center;
+    margin: 0;
+  }
+  
+.text_img,
+.certificate__text p{
+  text-align: center;
+    margin:0;
+}
+  .certificate__text{
+    margin: 3rem 0;
+  }
+  .certificate__left img,
+  .certificate__mid img,
+  .certificate__right img{
+    margin-top: -5em;
+  }
+
+
+}
+
+@media screen and (max-width:1300px) {
+    
+  .certificate__img {
+    display: block;
+  }
+  .certificate__img .certificate__left,
+  .certificate__img .certificate__right,
+  .certificate__img .certificate__mid {
+      margin: 0 ; 
+      height: auto;
+  }
+
+}
+

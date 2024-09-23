@@ -1,0 +1,114 @@
+#testimonials{
+    /* margin-top: 3rem; */
+    background-color: var(--color-blue);
+    border: 9px 10px 3px 4px ;
+}
+.testimonial_hr{
+    margin: 0;
+    background-color: white;
+    height: 2px;
+}
+.client__name {
+    color: white;
+}
+
+.container__test .testimonials__container{
+    width: 80%;
+    /* padding-bottom:4rem ; */
+    z-index: 0;    
+    box-shadow: 0 0 10px 5px rgba(92, 85, 230, 0.3);
+    border-radius: 2rem;
+    background-color: var(--color-blue);
+}
+
+
+/* .client__avatar{
+    width: 7.5rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    position: relative;
+    border-radius: 50%;
+    border: 0.4rem solid var(--color-primary);
+}
+
+.client__avatar img{
+    display: inline;
+  margin: 0 auto;
+  object-fit: contain;
+  height: 100%;
+  width: auto;
+   margin-bottom: 3rem;
+} */
+
+.client__avatar {
+    width: 7.5rem;
+    height: 7.5rem; /* Ensure a square container */
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    position: relative;
+    border-radius: 50%;
+    border: 0.3rem solid var(--color-primary);
+}
+
+.client__avatar img {
+    display: block; /* Change to block to remove inline spacing */
+    margin: 0 auto;
+    object-fit: cover; /* Try contain or none */
+    height: 100%;
+    width: 100%;
+}
+
+.test__head{
+    text-align: center;
+    color:var(--color-primary);
+    padding-top: 2%;
+}
+
+.testimonial{
+    background: var(--color-blue);
+    /* background: #aaefef; */
+    text-align: center;
+    padding: 3rem 5rem;
+    /* border-radius: 2rem; */
+    user-select: none;
+}
+
+.client__review{
+    color:white;
+    font-weight: 300;
+    display: block;
+    /* width: 80%; */
+    margin: 0.8rem auto 0;
+}
+
+@media screen and (max-width: 1024px){
+    .container__test .testimonials__container{
+        width: 60%;
+    }
+    #testimonials{
+        margin-top: -2.5em;
+    }
+    .testimonial_hr{
+        height: 10px;
+    }
+    .test__head{
+        padding-top:10% ;
+    }
+}
+
+/* @media screen and (max-width:600px){
+    .container__test .testimonials__container{
+        width: 90%;
+    }
+    .testimonial{
+        padding: 3rem;
+    }
+    .client__review{
+        width: 90%;
+    }
+} */
+
+
+
+

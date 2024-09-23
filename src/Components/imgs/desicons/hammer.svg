@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="35px" viewBox="0 0 36 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>maintainance</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.7976 22.1483 0.7976 22.1483 22.5 0 22.5"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="maintainance">
+            <g id="Clipped" transform="translate(0.000000, 12.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Path"></g>
+                <path d="M16.3315,0.7976 L1.14463,15.8752 C-0.367017,17.3753 -0.383596,19.8482 1.10792,21.3701 C2.5639,22.8557 4.91693,22.8799 6.40193,21.4245 L22.1484,5.991 L16.3315,0.7976 Z" id="Path" fill="#AE9CBB" mask="url(#mask-2)"></path>
+            </g>
+            <path d="M10.9986,5.07933 L24.4019,16.8848 C24.9825,17.3964 25.8581,17.3672 26.4037,16.818 L29.9879,13.2101 C31.0151,12.1755 31.0024,10.4946 29.959,9.4764 L23.7048,3.37104 C23.7048,3.37104 18.5195,-2.06606 11.1797,2.72163 C10.3577,3.25744 10.2618,4.43052 10.9986,5.07933" id="Path" fill="#3B1159"></path>
+            <path d="M28.3301,17.7212 L32.3183,13.9868 C33.0318,13.3192 34.1396,13.3408 34.8265,14.036 L35.4701,14.6868 C36.1766,15.4012 36.1766,16.5597 35.4701,17.2735 L31.5733,21.2139 C30.8306,21.9649 29.6144,21.9211 28.9269,21.1187 L28.192,20.2616 C27.5525,19.5155 27.6141,18.3918 28.3301,17.7212" id="Path" fill="#AE9CBB"></path>
+        </g>
+    </g>
+</svg>
